@@ -1,11 +1,372 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="ko">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <link rel="stylesheet" href="/css/style.css">
+    <script src="/js/jquery-3.6.0.min.js"></script>
+    <script src="/js/common.js"></script>
 </head>
+
 <body>
-    hi
+    <header class="pc_header">
+        <div class="h_logo">
+            <img src="/img/gnb_logo.svg" alt="">
+        </div>
+        <div class="h_gnb">
+            <ul class="gnb_list_box">
+                <li class="gnb_list">
+                    <a href="">SOLUTION</a>
+                    <ul class="gnb_list_box02">
+                        <li class="gnb_list02">
+                            <a href="">KIOSK</a>
+                        </li>
+                        <li class="gnb_list02">
+                            <a href="">METAVERS</a>
+                        </li>
+                        <li class="gnb_list02">
+                            <a href="">SI/SM
+                            </a>
+                        </li>
+                    </ul>
+                </li>
+                <li class="gnb_list">
+                    <a href="">COMPANY</a>
+                    <ul class="gnb_list_box02">
+                        <li class="gnb_list02">
+                            <a href="">회사 소개</a>
+                        </li>
+                        <li class="gnb_list02">
+                            <a href="">CI 소개</a>
+                        </li>
+                    </ul>
+                </li>
+                <li class="gnb_list">
+                    <a href="">RECRUIT</a>
+                </li>
+                <li class="gnb_list">
+                    <a href="">CONTACT</a>
+                    <ul class="gnb_list_box02">
+                        <li class="gnb_list02">
+                            <a href="">오시는 길</a>
+                        </li>
+                    </ul>
+                </li>
+                <div class="gnb_bg">
+
+                </div>
+            </ul>
+        </div>
+    </header>
+    <div class="main_banner">
+        <div class="main_banner_contents">
+
+            <div class="main_banner_text">
+                <h2>
+                    <span>솔앤드</span>,무한한 <br>
+가능성의 첫 시작
+                </h2>
+                <p class="mt60">
+                    솔앤드는 디지털 기반과 아날로그 정서를 융합하는 
+                    첨단기술을<br> 통해 삶을 보다 풍요롭고 따뜻하게 만듭니다.
+                </p>
+
+            </div>
+            <div class="main_banner_img">
+                <img class="banner01" src="/img/main_banner.png" alt="">
+                <img class="banner02" src="/img/main_banner02.png" alt="">
+            </div>
+        </div>
+
+        
+    </div>
+    <div class="contenr_area">
+        <div class="main_content_top">
+
+            <div class="main_content_top_box bx_flex">
+                <div class="main_content_top_box_left">
+                    <img src="/img/kiosk.png" alt="">
+
+                </div>
+                <div class="main_content_top_box_right">
+                    <h2 class="page_tit">
+                        어르신 돌봄을 <br>  위한  헬스케어 키오스크
+                    </h2>
+                    <h4 class="tit_dep2 mt40">
+                        KIOSK Solution 
+
+                    </h4>
+                    <p class="text_dep01 mt12">
+                        솔앤드는 AI 얼굴인식, 헬스케어 솔루션, 체험 콘텐츠, 지역생활정보 등 어르신 돌봄을 위한 솔루션과 다양한 서비스를 기반으로  대전 유성구, 원주시, 충북 보은군,  경남 함양군 등에  비접촉 헬스케어 키오스크 제품을 공급하였으며  지속적인 제품 고도화를 통해 정부 및 지자체 건강복지 증진사업에  기여하고 있습니다. 
+                    </p>
+                    <div class="btn_wrap bx_flex jc_end mt70">
+                        <button class="more_btn">자세히 보기</button>
+
+                    </div>
+                </div>
+            </div>
+
+            <div class="main_content_top_box bx_flex mt150">
+                
+                <div class="main_content_top_box_right">
+                    <h2 class="page_tit">
+                        실감미디어 융합체험이 <br> 가능한 메타버스
+                    </h2>
+                    <h4 class="tit_dep2 mt40">
+                        METABUS Solution 
+
+
+                    </h4>
+                    <p class="text_dep01 mt12">
+                        시간과 공간의  제약없이 몰입감을 제공하는 메타버스 솔루션  개발 경험을 기반으로 원어민과 자유로운 어학 교육이 가능한 어학 메타버스,  전시관을 방문하지 않더라도 실감미디어 제공받는 가상컨벤션 메타버스, AR 기술을 기반으로 현장의 역사, 문화, 관광 체험이 가능한 관광 메타버스 등 공급하여 학습효과 제고, 업무속도 향상, 비용 절감등의  다양한 서비스 기대효과를 제공합니다. 
+                    </p>
+                    <div class="btn_wrap bx_flex  mt70">
+                        <button class="more_btn">자세히 보기</button>
+
+                    </div>
+                </div>
+                <div class="main_content_top_box_left">
+                    <img src="/img/metabus.png" alt="">
+
+                </div>
+            </div>
+            
+            <div class="main_content_top_box bx_flex mt150">
+                <div class="main_content_top_box_left">
+                    <img src="/img/solution.png" alt="">
+
+                </div>
+                <div class="main_content_top_box_right">
+                    <h2 class="page_tit">
+                        고객에게 신뢰받는 <br>
+                        시스템 구축 및 운영
+                    </h2>
+                    <h4 class="tit_dep2 mt40">
+                        SI/SM Solution 
+
+
+                    </h4>
+                    <p class="text_dep01 mt12">
+                        최상의 고객 서비스를 제공하기 위해 프로젝트에 최적화된 개발 방법론, 관리방법론등을 제시하고 적용하여 프로젝트를 수행합니다. 다양한 시스템 구축 및 운영 역량을 기반으로 프로젝트를 성공적으로 수행함으로써 고객 신뢰를 기반으로 사업기획을 확대하고 있습니다. 
+
+                    </p>
+                    <div class="btn_wrap bx_flex jc_end mt70">
+                        <button class="more_btn">자세히 보기</button>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+
+        <div class="main_content_mid_box">
+            <h2 class="page_tit">
+                주요 프로젝트
+            </h2>
+            <div class="brick_wrap mt80">
+                <div class="brick_row">
+                    <div class="brick_content">
+                        <div class="brick_img">
+                            <img src="/img/brick_img01.png" alt="">
+                        </div>
+                        <div class="brick_text mt30">
+                            <h2 class="tit_dep3">
+                                민관공동투자 반도체 고급인력 양성 사업 'K-Chips' 사이트 구축
+                            </h2>
+                            <p class="text_dep02 mt12">
+                                정부와 반도체 기업이 10년 동안 공동 투자하여 반도체 연구과제를 원활하게 수행할 수 있도록 하는 과제 관리 및 인력양성 서비스입니다. 예산편성, 일정관리, 참여자과업관리, 현업업무현황, 특허 논문 등의 성과관리를 한번에 처리할 수 있도록 기획되어 개발하였습니다.     
+                            </p>
+                            <p class="brick_text_tag mt8"> 
+                                #ITSM #소통관리 #인재양성 및 관리 솔루션 #예산관리시스템 #프로젝트관리시스템(PMS) #백오피스 #CMS
+                            </p>
+                        </div>
+
+                    </div>
+                    <div class="brick_content">
+                        <div class="brick_img">
+                            <img src="/img/brick_img02.png" alt="">
+                        </div>
+                        <div class="brick_text mt30">
+                            <h2 class="tit_dep3">
+                                스마트경로당 건강체크 KIOSK 플랫폼 및 HW개발
+                            </h2>
+                            <p class="text_dep02 mt12">
+                                대전시 유성구 스마트 경로당을 위한 비접촉 건강체크 키오스크 플랫폼 및 제품을 개발하여 공급하였습니다.  본 제품 및 서비스는 AI 시스템이 탑재된  솔루션으로 안면인식, 건강체크, 고열탐지, 스마트 생활정보 서비스, 고령자를 위한 키오스크 체험 콘텐츠 등을 제공합니다.  
+                            </p>
+                            <p class="brick_text_tag mt8"> 
+                                #화상회의솔루션 #위치기반API 연동 솔루션 #Ubuntu edge Computing #열화상센서 #화상 건강체크솔루션 #원격 전원관리 솔루션 #백오피스 #CMS #AI #Docker #회원관리솔루션 #키오스크 체험 컨텐츠
+                            </p>
+                        </div>
+
+                    </div>
+
+                </div>
+                <div class="brick_row">
+                    <div class="brick_content">
+                        <div class="brick_img">
+                            <img src="/img/brick_img03.png" alt="">
+                        </div>
+                        <div class="brick_text mt30">
+                            <h2 class="tit_dep3">
+                                KT 멤버십 서비스 구축
+                            </h2>
+                            <p class="text_dep02 mt12">
+                                KT에서 유,무선 회원에게 제공하는 멤버십 서비스인 KT 멤버십 APP을 전면 리뉴얼하여 재구축하였습니다. 
+                                1천만이상 회원DB를 설계하고 안정적으로 운영 관리하였고, APP 반응속도를 대폭 개선하였습니다. 
+                                또한,  가입자  개인  맞춤형 Contents를 제안할 수 있도록 CMS를 개편하여 리뉴얼 후 운영 관리 업무를  진행했습니다.                                   
+                            </p>
+                            <p class="brick_text_tag mt8"> 
+                                #대용량DB 최적화 설계 및 튜닝 #DBMS #RDBMS(관계형데이터베이스) #CMS #SNS #회원관리솔루션 #UI/UX 리뉴얼 #22년 라이프 스타일 다운로드 1등 APP
+                            </p>
+                        </div>
+
+                    </div>
+                    <div class="brick_content">
+                        <div class="brick_img">
+                            <img src="/img/brick_img05.png" alt="">
+                        </div>
+                        <div class="brick_text mt30">
+                            <h2 class="tit_dep3">
+                                서울시 농수산식품공사 창의제안 시스템 구축
+                            </h2>
+                            <p class="text_dep02 mt12">
+                                서울시 농수산식품공사에서 진행하는 대국민 ‘창의제안시스템’을 구축, 운영하고 있습니다. 
+                                창의제안시스템 (아이누리)의 홈페이지, 모바일 화면 전체를 리뉴얼하고 관리자 페이지를 구축하였고 현재 운영관리 업무를 수행하고 있습니다.                                
+                            </p>
+                            <p class="brick_text_tag mt8"> 
+                                #DBMS #백오피스 #CMS #API #UI/UX 디자인 #퍼블리싱 #프론트 개발 #서비스 기획    
+                            </p>
+                        </div>
+
+                    </div>
+
+                </div>
+                <div class="brick_row">
+                    <div class="brick_content">
+                        <div class="brick_img">
+                            <img src="/img/brick_img04.png" alt="">
+                        </div>
+                        <div class="brick_text mt30">
+                            <h2 class="tit_dep3">
+                                순천향대학교 메타버스 공자아카데미(교육솔루션) 개발    
+                            </h2>
+                            <p class="text_dep02 mt12">
+                                중국어 학습 전문 메타버스 플랫폼으로 현지인과 국내 학생이 메타버스 공간에서 자유롭게 만나 대화하고 중국어를 공부할 수 있는 솔루션입니다. 모바일 뿐만 아니라 PC에서도 원활하게 사용할 수 있도록 개발되어 단말에 구애받지 않는 끊김없는 서비스 경험을(Seamless Service & Experiece)  제공합니다. 또한, 수강신청, 다시보기, 수강 변경, 교수와 대화, 체험 신청 등 다양한 학사관리시스템(LMS System) 기능을 메타버스로 구현하였습니다. 
+                            </p>
+                            <p class="brick_text_tag mt8"> 
+                                #유니티  #가상공간  #화상회의솔루션  #Application  #메타버스  #LMS(학습 관리 시스템)  #회원관리솔루션  #수강관리시스템    
+                            </p>
+                        </div>
+
+                    </div>
+                    <div class="brick_content">
+                        <div class="brick_img">
+                            <img src="/img/brick_img06.png" alt="">
+                        </div>
+                        <div class="brick_text mt30">
+                            <h2 class="tit_dep3">
+                                C&CO 건설 출입관리 솔루션 구축     
+                            </h2>
+                            <p class="text_dep02 mt12">
+                                건설현장에  꼭 필요한 인력관리시스템으로 출퇴근 관리, 건강 관리, 현장 인력 및 환경상태 관리 등을 건설사별, 현장별, 업체별 권한에  최적화하여 제공합니다.  또한 CCTV, 온도먼지 체크 등 현장 장비와 시스템을 연결하여 장비에서 수집된 다양한 정보를 기록하고 활용할 수 있어 관리자의 관리 효율을 높여 통합 운영관리가 가능하도록 구축되었습니다. 
+                            </p>
+                            <p class="brick_text_tag mt8"> 
+                                #출입관리 시스템   #이상경보 솔루션   #PMS(프로젝트관리시스템  Project Management System)   #건강관리 시스템   #백오피스   #CMS   #권한관리 시스템   #회원관리솔루션
+    
+                            </p>
+                        </div>
+
+                    </div>
+
+                </div>
+
+            </div>
+        </div>
+
+        <div class="main_content_bottom_box ">
+            <p class="tit_dep5">
+                soland 안내
+            </p>
+            <div class="bx_flex ai_center jc_sb mt24">
+                <h2 class="tit_dep7">
+                    <span class="bold">Soland</span>와 함께 할 때, <br>혁신이 일어납니다.
+                </h2>
+
+                <div class="main_content_bottom_box_btn  bx_flex jc_sb gap27">
+                    <div class="main_content_bottom_box_btn_RECRUIT">
+                        <a href="">
+                            <h2 class="tit_dep6">
+                                RECRUIT
+                            </h2>
+                            <p class="text_dep08">
+                                솔앤드는 언제나 우리와 함께 성장할 인재를 기다립니다.
+                            </p>
+                        </a>
+                    </div>
+                    <div class="main_content_bottom_box_btn_contact">
+                        <a href="">
+                            <h2 class="tit_dep6">
+                                CONTACT
+                            </h2>
+                            <p class="text_dep08">
+                                문의사항을 남겨 주시면 친절히 답변해 드리겠습니다.
+                            </p>
+                        </a>
+                    </div>
+                </div>
+
+
+            </div>
+        </div>
+
+        <div class="main_content_bland_box">
+            
+            <div class="main_bland_wrap">
+                <marquee class=""  behavior="" direction="left" loop="4" scrollamount="10" >
+               <div class="main_bland_wrap_flex">
+                    <img src="/img/bland01.png" alt="">
+                    <img src="/img/bland02.png" alt="">
+                    <img src="/img/bland03.png" alt="">
+                    <img src="/img/bland04.png" alt="">
+                    <img src="/img/bland05.png" alt="">
+                    <img src="/img/bland06.png" alt="">
+                    <img src="/img/bland07.png" alt="">
+               </div>
+            </marquee>
+
+            </div>
+        
+        </div>
+    </div>
+     <!-- footer -->
+     <footer class="footer">
+        <div class="footer_text_wrap">
+            <p class="fotter_text">서울특별시 서초구 효령로62, 백산빌딩 7층 (방배동) <br>
+                ﻿TEL 070-4617-7279    FAX 0504-482-4731    이메일 contact@soland.co.kr <br>
+                전화상담 운영시간 평일 9:00~18:00 (주말/공휴일 제외)</p>
+            <p class="footer_copyright">
+                © Copyright 2017 - KOREA SEMICONDUCTOR INDUSTRY ASSOCIATION
+            </p>
+
+        </div>
+        </footer>
+
+        
+    <!-- // footer -->
+
+    <script>
+        $(document).ready(function(){
+            $('.gnb_list_box').hover(function(){
+                $(this).addClass('on')
+            },
+            function(){
+                $(this).removeClass('on')
+            }
+        )
+        }
+    
+    )
+    </script>
 </body>
 </html>
